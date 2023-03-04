@@ -26,7 +26,10 @@ value2.sendKeys("10");
 WebElement value3=driver.findElement(By.className("form-control"));
 value3.sendKeys("20");*/
 
-
+WebElement total=driver.findElement(By.id("button-two"));
+total.click();
+WebElement total1=driver.findElement(By.className("btn btn-primary"));
+total1.click();
 
 
 	}

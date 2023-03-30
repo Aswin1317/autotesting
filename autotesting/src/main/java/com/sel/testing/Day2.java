@@ -45,6 +45,9 @@ public class Day2 {
 		checkbox.click();
 		WebElement button= driver.findElement(By.className("c5"));
 		button.click();
+	
+		
+		
 		
 	}
 	
